@@ -21,8 +21,8 @@ org_settings:
   org_info:
     org_name: Jacob's Fleet
   webhook_settings:
-    activitiews_webhook:
-      enable_activity_webhook: true
+    activities_webhook:
+      enable_activities_webhook: true
       destination_url: https://mattermost.ccs.ornl.gov/hooks/mr1fbbqegpg13pwbugd5f8tq4o
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
